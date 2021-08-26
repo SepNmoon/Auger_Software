@@ -72,13 +72,13 @@ The left table shows the core energies for each subshell of B.
 * Search Function
 Go back the the root window, user can search Auger transitions and core energies in a specified range. 
    - Search Auger Transition
-![search_auger](https://github.com/SepNmoon/Auger_Software/blob/master/image/search_auger.JPG)
+![search_auger](https://github.com/SepNmoon/Auger_Software/blob/master/image/search_auger.JPG)  
 Enter the search range firstly, then select Auger transitions option. User can select search from all elements or some specified elements as well.
 ![select_elements](https://github.com/SepNmoon/Auger_Software/blob/master/image/select_elements.JPG)
 The combobx and entry pop up for user to select or enter photon energy when select search by binding energy. Finally, click search button.
 
     - Search Core State Energies
-![search_core](https://github.com/SepNmoon/Auger_Software/blob/master/image/search_core.JPG)
+![search_core](https://github.com/SepNmoon/Auger_Software/blob/master/image/search_core.JPG)  
 Enter the search range firstly, then select Auger transitions option. User can select search from all elements or some specified elements as well.
 The combobx and entry pop up for user to select or enter photon energy when select search by kinetic energy. Finally, click search button.
 
@@ -94,9 +94,9 @@ The table shows Auger or core energies in the search range. Three buttons provid
 
 * Plot Function
     - Plot Auger and Core Lines for Each Element
-The program can plot Auger lines and core lines with energies and normalized intensity.
-![plot_each](https://github.com/SepNmoon/Auger_Software/blob/master/image/plot_each.JPG)
-For example: 5 B
+The program can plot Auger lines and core lines with energies and normalized intensity.  
+![plot_each](https://github.com/SepNmoon/Auger_Software/blob/master/image/plot_each.JPG)  
+For example: 5 B  
 User can select the value of photon energy and x axis (BE vs KE). Finally, click plot button.
 ![plot_figure1](https://github.com/SepNmoon/Auger_Software/blob/master/image/plot_figure1.JPG)  
 Auger line intensities were calculated using the 'normalized multiplicity" method outlined by W. A. Coghlan and R.E. Clausing [1].  
@@ -104,14 +104,21 @@ Core line intensities are scaled according to their photoionisation cross sectio
 
     - Plot Imported Dataset
 Go back to the root window, the program allows user to import dataset they measured, and plot the data and reference lines.
- ![plot_data](https://github.com/SepNmoon/Auger_Software/blob/master/image/plot_data.JPG)
+ ![plot_data](https://github.com/SepNmoon/Auger_Software/blob/master/image/plot_data.JPG)  
  User needs to import data file, select photon energy and elements, and the range of x axis.
  ![plot_figure2](https://github.com/SepNmoon/Auger_Software/blob/master/image/plot_figure2.JPG)
      
      - Plot Reference Lines for a Number of Selected Elements
 Go back to the root window, user selects elements and photon energy, click plot button directly without import files.
+#### 5. Calculation
+* Auger Energies:
+  E_vxy=E_v-E_x'-E_y' [1]  
+  where E_v is the core state binding energy of the fist electron ejected from the inner shell.   
+  E_x'=[E_x(Z)+E_x(Z+1)]/2, E_y'=[E_y(Z)+E_y(Z+1)]/2. E_x(Z) and E_x(Z+1) are the binding energies of x shell in atoms whose atom number is Z and Z+1. E_y(Z) and E_y(Z+1) have the similar meaning for y shell.
 
-#### 5. Information of Developing Group
+* Norm Multiplicity
+  ‘Normalized multiplicity’ is a method to calculate relative Auger intensities by multiplying the number of electrons in the subshells involved in transitions, and normalize these quantities to maximum of 100 for the largest product for a specific element [1].
+#### 6. Information of Developing Group
 Group: Applied X-ray Spectroscopy (https://a-x-s.org/group/)
 Author: Lu Liu
 Supervisor: Anna Regoutz, Curran Kalha
