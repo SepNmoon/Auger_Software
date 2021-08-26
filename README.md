@@ -16,7 +16,9 @@ SpeedyAuger is a software helps experimenter to calculate Auger transitions for 
   - webbrowser
   - matplotlib
 * Run the software
-  Double-click the SpeedyAuger.exe
+  Double-click the SpeedyAuger.exe  
+  SpeedyAuger.py is the source code. EADL_database and Scofield_csv_database store necessary data for running SpeedAuger. Please don't delete them. Put them in the same folder.
+
 
 #### 3. Catalog
 ├── README.md                   // user guide   
