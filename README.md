@@ -39,7 +39,7 @@ SpeedyAuger is a software helps experimenter to calculate Auger transitions for 
 
 
 
-#### 4. Introduce Fuunction
+#### 4. Introduce Function
 
 * Root Window
 ![root](https://github.com/SepNmoon/Auger_Software/blob/master/image/root_window.JPG)
@@ -119,10 +119,10 @@ Go back to the root window, user selects elements and photon energy, click plot 
 * Norm Multiplicity
   ‘Normalized multiplicity’ is a method to calculate relative Auger intensities by multiplying the number of electrons in the subshells involved in transitions, and normalize these quantities to maximum of 100 for the largest product for a specific element [1].
 #### 6. Information of Developing Group
-Group: Applied X-ray Spectroscopy (https://a-x-s.org/group/)
-Author: Lu Liu
-Supervisor: Anna Regoutz, Curran Kalha
-Institution: University College London
+Group: Applied X-ray Spectroscopy (https://a-x-s.org/group/)  
+Author: Lu Liu  
+Supervisor: Anna Regoutz, Curran Kalha  
+Institution: University College London  
 Contact: Liulu199807@hotmail.com
 
 version: 1.0 26/08/2021
